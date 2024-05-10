@@ -158,3 +158,24 @@ h3{
     margin-top: 10px;
     font-family: "fjalla";
 }
+.textbutton{
+    color: white;
+    font-family: "font";
+    font-size:  18px;
+}
+
+.third {
+    width: 80%;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    border-color: var(--rosinha);
+    color: var(--rosinha);
+    box-shadow: 0 0 40px 40px var(--rosinha) inset, 0 0 0 0 var(--rosinha);
+    transition: all 150ms ease-in-out;
+    
+    &:hover {
+      box-shadow: 0 0 10px 0 var(--rosinha) inset, 0 0 10px 4px var(--rosinha);
+      background-color: var(--rosinha);
+    }
+}

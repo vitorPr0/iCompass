@@ -138,8 +138,8 @@ select{
     background-color: var(--roxo);
     margin-top: 35px;
     color: white;
-    font-family: 'font';
-    font-size: 25px;
+    font-family: '';
+    font-size: 18px;
 }
 .textfim{
     margin-left: 40px;
