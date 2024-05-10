@@ -26,6 +26,33 @@ body{
     margin-top: 7px;
     margin-left: 30px;
 }
+.nav-menu{
+    float: right;
+    display: flex;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+li{
+    position: relative;
+    list-style-type: none;
+}
+.nav-menu a{
+    text-decoration: none;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+}
+.cadeado{
+    width: 35px;
+    height: 30px;
+}
+.text-ambiente{
+    margin-left: 10px;
+    margin-top: 5px;
+}
 .caixatotal{
     width: 80%;
     height: 1000px;
@@ -46,12 +73,12 @@ body{
 }
 .perfilimg{
     width: 200px;
-     height: 200px;
+    height: 200px;
     overflow: hidden;
     border-radius: 50%; 
     position: relative;
     margin-top: 30px; 
-    margin-left: 90px;
+    margin-left: 60px;
     
 }
 .perfil img{
@@ -74,7 +101,7 @@ body{
     display: flex;
     gap: 30px;
     margin-top: 20px;
-    margin-left: 100px;
+    margin-left: 55px;
 }
 .info-geral{
     margin-top: 15px;
@@ -108,13 +135,12 @@ body{
     margin-top: 3px;
     font-size: 30px;
 }
-
-
 .minhaconta{
     width: 65%;
     background-color: #E6E6E6;
     height: 1000px;
     border-radius: 10px;
+    margin-top: 20px;
 }
 .grafico{
     width: 90%;

@@ -1,0 +1,202 @@
+:root{
+    --roxo: #912BBC;
+    --rosa: #FF3EA5;
+    --rosinha: #FB9AD1;
+    --roxinho: #A076F9;
+    --roxao: #B950E6
+}
+@font-face{
+    font-family: "dougle"; src: url("./fonts/Dongle-Light.ttf")
+}
+@font-face{
+    font-family: "fjalla"; src: url("./fonts/FjallaOne-Regular.ttf")
+}
+body{
+    margin: 0 auto;
+    background-color: #EFEFEF;
+}
+.box-header{
+    width: 100%;
+    height: 100px;
+    background-color: var(--roxo) ;
+}
+.logo {
+    width: 100px;
+    height: 90px;
+    margin-top: 7px;
+    margin-left: 30px;
+}
+.nav-menu{
+    float: right;
+    display: flex;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+li{
+    position: relative;
+    list-style-type: none;
+}
+.nav-menu a{
+    text-decoration: none;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+}
+.cadeado{
+    width: 35px;
+    height: 30px;
+}
+.text-ambiente{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.banner img{
+    width: 100%;
+}
+.banner{
+    width: 100%;
+    margin: 0 auto;
+}
+.marcas{
+    width: 100%;
+    margin-top: -10px;
+}
+.mulheres{
+    margin-top: -4px;
+}
+article{
+    text-align: center;
+    width: 100%;
+}
+.box-atualizacoes{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    column-gap: 20px;
+}
+.new{
+    background-color: white;
+    width: 350px; 
+    height: 425px;
+    border-radius: 5px;
+    font-family: "dougle";
+    font-size: 20px;
+}
+.atualizacoes{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: "fjalla";
+    font-size: 50px;
+}
+.foto{
+    width: 350px;
+    height: 350px;
+    margin-bottom: 10px;
+}
+.premios{
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: "fjalla";
+    font-size: 50px;
+}
+.fundopreto{
+    background-color: black;
+    width: 100%;
+    height: 770px;
+    padding-top: 10px;
+    margin-top: 70px;
+}
+.vermais1 {
+    background-color: var(--rosinha);
+    width: 150px;
+    height: 50px;
+    margin-top: 70px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 3px;
+}
+.box-premios{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    column-gap: 20px;
+}
+.vermais2 {
+    background-color: var(--roxinho);
+    width: 150px;
+    height: 50px;
+    margin-top: 70px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 3px;
+}
+.marcas2{
+    width: 100%;
+    margin-top: -10px;
+}
+.rodape{
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.destaque h1{
+    font-size: 65px;
+    width: 60%;
+    font-family: "fjalla";
+    margin-left: -50px;
+}
+.destaque{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+}
+.box-button{
+    width: 30%;
+}
+.linear-button{
+    width: 70%;
+    margin-left: 260px;
+    height: 100px;
+}
+.linha{
+    width: 93%;
+    background-color: #CCCACA;
+    height: 0.3px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.info{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.box-ico{
+    width: 10%;
+    float: left;
+}
+.ico{
+    width: 100px;
+    height: 90px;
+}
+.cidade{
+    width: 30%;
+    text-align: left;
+    margin-left: 90px;
+    font-family: "fjalla";
+}
+.privace{
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 50px;
+    font-family: "fjalla";
+    font-size: 12px;
+}
