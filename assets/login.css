@@ -1,0 +1,138 @@
+:root{
+    --roxo: #912BBC;
+    --rosa: #FF3EA5;
+}
+@font-face{
+    font-family: "font"; src: url("./fonts/Dongle-Light.ttf")
+}
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    top: 0;
+    left: 0;
+}
+.box-header{
+    width: 100%;
+    height: 100px;
+    background-color: var(--roxo) ;
+}
+.logo {
+    width: 100px;
+    height: 90px;
+    margin-top: 7px;
+    margin-left: 30px;
+}
+.seguro{
+    float: right;
+    margin-right: 70px;
+    margin-top: 30px;
+    color: white;
+    display: flex;
+}
+.cadeado{
+    width: 35px;
+    height: 30px;
+}
+.text-ambiente{
+    margin-left: 10px;
+    font-family: 'font';
+    font-size: 25px;
+}
+.btn{
+    width: 350px;
+    height: 45px;
+    border: solid 2px var(--rosa);
+    background-color: #FB9AD1;
+    border-radius: 4px;
+    color: white;
+    margin-top: 40px;
+    font-size: 29px;
+    font-family: 'font';
+}
+.btnbox{
+    width: 100%;
+    text-align: center;
+
+
+}
+.rodape{
+    width: 100%;
+    height: 80px;
+    background-color: var(--roxo);
+    color: white;
+    font-family: 'font';
+    font-size: 25px;
+    margin-top: 140px;
+}
+.textfim{
+    margin-left: 40px;
+    position: absolute;
+    margin-top: 15px;
+
+}
+.textfim2{
+    margin-left: 40px;
+    position: absolute;
+    margin-top: 35px;
+
+}
+
+::placeholder{
+    font-size: 20px;
+    margin-left: 10px;
+    
+}
+optgroup{
+    font-size: 24px !important;
+}
+.box-interna input{
+    width: 330px;
+    height: 27px;
+    display: block;
+    font-family: 'font';
+    border: 2px solid #FF3EA5;
+    border-radius: 3px;
+    margin-top: -10px;
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 27%;
+}
+.box-interna label{
+    font-size: 28px;
+    font-family: 'font';
+    margin-left: 27%;
+}
+
+
+.box{
+    width: 100%;
+    margin-top: 50px;
+
+
+}
+.box-interna{
+    width: 50%;
+
+    margin-left: 25%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.h1{
+    text-align: center;
+    font-family: 'font';
+    margin-top:30px;
+    font-size: 50px;
+
+}
+.frase{
+    text-align: center;
+    width: 100%;
+    margin-top: 40px;
+}
+.fa-eye-slash {
+    position: absolute;
+    margin-top: -32px;
+    margin-left: 535px;
+}

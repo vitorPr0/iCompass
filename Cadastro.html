@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/Cadastro.css">
+    <script src="https://use.fontawesome.com/3661c174df.js"></script>
+    <title>Cadastro-iCompass</title>
+</head>
+    <body>
+        <header class="box-header">
+            <img class="logo" src="assets/logo.png">
+            <div class="seguro">
+                <img class="cadeado" src="assets/cadiado.png">
+                <span class="text-ambiente">Ambiente Seguro</span>
+            </div>
+        </header>
+        <div class="frase">
+            <span class="h1">Faça cadastro conosco!</span>
+        </div>
+
+        <header class="geral-box">
+                <section  class="box1">
+                    <div class="primeiro-input">
+                        <label for="nome">Nome</label>
+                        <input bordercolor="pink" type="text" name="nome" id="input-Nome" placeholder="Digite seu nome"   required>
+                    </div>
+                    <div>
+                        <label for="email">Sexo</label>
+                        <select class="">
+                            <optgroup>
+                                <option >Feminino</option>
+                                <option >Masculino</option>
+                                <option >Outro</option>
+                            </optgroup>
+
+                        </select>
+                    </div>
+                    <div>
+                        <label for="CPF/RG">CPF</label>
+                        <input type="number" name="CPF/RG" placeholder="000.000.000-00" required maxlength="14">
+                    </div>
+                    <div>
+                        <label for="telefone">Endereço</label>
+                        <input type="tel" name="telefone" id="input-Cel/Tel" placeholder="Digite seu Endereço" required maxlength="15">
+                    </div>
+                    <div>
+                        <label for="telefone">Telefone</label>
+                        <input type="tel" name="telefone" id="input-Cel/Tel" placeholder="(00) 00000-0000" required maxlength="15">
+                    </div>
+                </section>
+                <section class="box2">
+                    <div class="primeiro-input">
+                        <label for="data">Tipo Usuário</label>
+                        <select class="">
+                            <optgroup>
+                                <option >Individual</option>
+                                <option >Agência</option>
+                            </optgroup>
+
+                        </select>
+                    </div>
+                    <div>
+                        <label for="nome">Plano</label>
+                            <select class="">
+                                <optgroup>
+                                    <option >Premium</option>
+                                    <option >Intermediário</option>
+                                    <option >Básico</option>
+                                </optgroup>
+                            </select>
+
+
+                    </div>
+                    <div>
+                        <label for="senha">Email</label>
+                        <input type="password" name="senha" id="senha"  placeholder="Digite seu Email" required maxlength="10">
+                    </div>
+                    <div>
+                        <label for="senha">Senha</label>
+                        <input type="password" name="senha" id="input-Senha" placeholder="Digite sua senha:" required maxlength="10"><i class="fa fa-eye-slash" aria-hidden="true"></i>
+                    </div>
+                    <div>
+                        <label for="senha">Confirmar Senha</label>
+                        <input type="password" name="senha" id="input-Senha" placeholder="Confirme sua senha:" required maxlength="10" ><i class="fa fa-eye-slash" aria-hidden="true"></i>
+                    </div>
+                </section>
+            </header>
+            <div class="btnbox">
+                <button class="btn">Cadastrar</button>
+            </div>
+            <div class="rodape">
+                <div class="text">
+                    <span class="textfim">Privacy Policy</span>
+                    <div>
+                        <span class="textfim2"> © 2024 iCompass, Inc - uma agência de marketing influenciadora. Todos os direitos reservados.</span>
+                    </div>
+                    
+                </div>
+               
+            </div>
+    </body>
+</html>
