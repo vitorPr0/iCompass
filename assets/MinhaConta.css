@@ -1,0 +1,137 @@
+:root{
+    --roxo: #912BBC;
+    --rosa: #FF3EA5;
+    --roxo-claro: #A076F9;
+    --rosa-claro:#FB9AD1
+}
+@font-face{
+    font-family: "font"; src: url("./fonts/Dongle-Light.ttf")
+}
+
+body{
+    margin: 0 auto;
+    background-color: #EFEFEF;
+    font-family: 'font';
+}
+
+
+.box-header{
+    width: 100%;
+    height: 100px;
+    background-color: var(--roxo) ;
+}
+.logo {
+    width: 100px;
+    height: 90px;
+    margin-top: 7px;
+    margin-left: 30px;
+}
+.caixatotal{
+    width: 80%;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    column-gap: 5%;
+    margin-top: 130px;
+}
+.perfil{
+    width: 25%;
+    height: 890px;
+    background-color: #E6E6E6;
+    border-radius: 10px;
+    margin-bottom: 7%;
+    
+}
+.perfilimg{
+    width: 200px;
+     height: 200px;
+    overflow: hidden;
+    border-radius: 50%; 
+    position: relative;
+    margin-top: 30px; 
+    margin-left: 90px;
+    
+}
+.perfil img{
+    object-fit: cover; 
+    object-position: center; 
+}
+.name{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+}
+.bio{
+    font-size: 20px;
+    padding-left: 18px;
+    color: var(--rosa-claro);
+    font-size: 35px;
+}
+.icon{
+    font-size: 30px;
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.info-geral{
+    margin-top: 15px;
+    
+}
+.btn{
+    height: 45px;
+    width: 80%;
+    margin-top: 25px;
+    border-radius: 4px;
+    border: 1px solid var(--roxo-claro);
+    background-color: var(--roxo-claro);
+    font-family: 'font';
+    
+}
+.box-btn{
+    align-items: center;
+    margin-left: 70px;
+}
+.btn span{
+    color: white;
+    font-size: 30px;
+}
+.sub-info{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+}
+.info{
+    padding-left: 20px;
+    margin-top: 3px;
+    font-size: 30px;
+}
+
+
+.minhaconta{
+    width: 65%;
+    background-color: #E6E6E6;
+    height: 1000px;
+    border-radius: 10px;
+}
+.grafico{
+    width: 90%;
+    margin-top: 30px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.estatisticas{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mc span{
+    font-size: 30px;
+    color: var(--roxo-claro);
+    padding: 20px;
+    
+}
+
