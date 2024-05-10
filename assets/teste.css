@@ -1,9 +1,0 @@
-.gradient-border {
-    width: 200px;
-    height: 200px;
-    border: solid ;
-    border-radius: 10px !important;
-    
-    border-image:  linear-gradient(to bottom, #ff0000, #00ff00) 1 ;
-
-  }
