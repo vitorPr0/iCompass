@@ -62,6 +62,7 @@ li{
 }
 .marcas{
     width: 100%;
+    height: 80px;
     margin-top: -10px;
 }
 .mulheres{
@@ -161,11 +162,28 @@ article{
 }
 .box-button{
     width: 30%;
+    height: 50px;
+    margin-top: -40px;
 }
 .linear-button{
     width: 70%;
     margin-left: 260px;
+    background-color: #000;
     height: 100px;
+    border-image-slice: 1;
+    border-width: 4px;
+    border-image-source: linear-gradient(to right, #912BBC, #A076F9, #FF3EA5, #FB9AD1, #FFD124 );
+
+}
+.linear-button span{
+    font-size: 25px;
+    font-family: "fjalla";
+    background: linear-gradient(45deg, #912BBC, #A076F9, #FF3EA5, #FB9AD1, #FFD124);
+    background-position-x: var(--x);
+    background-position-y: var(--y);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .linha{
     width: 93%;
@@ -199,4 +217,47 @@ article{
     margin-top: 50px;
     font-family: "fjalla";
     font-size: 12px;
+}
+
+.main-title-section {
+    width: 100%;
+    height: 350px;
+    padding: 50px 0 20px 0;
+    background: #000;
+    text-align: center;
+}
+
+.main-title-section h2 {
+    width: 100%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 100px;
+    font-size: 130px;
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(45deg, #912BBC, #A076F9, #FF3EA5, #FB9AD1, #FFD124);
+    background-size: 70% 2%;
+    animation: colors 5s ease infinite;
+    background-position-x: var(--x);
+    background-position-y: var(--y);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+@keyframes colors{
+    0% {
+     background-position: 0% 30%;
+    }
+    50% {
+     background-position: 100% 50%;
+    }
+    100% {
+     background-position: 0% 50%;
+    } 
+ }
+.main-title-section .simple_title{
+    margin-top: 20px;
+}
+.container h2{
+    font-family: "fjalla";
 }
